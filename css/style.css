@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: aquamarine;
+}
+
+.container{
+  width: 730px;
+  height: 350px;
+  margin: 150px auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.pricing{
+  width: 240px;
+  background-color: white;
+  text-align: center;
+  padding: 25px 0;
+  border-radius: 20px;
+}
+
+.pricing img{
+  width: 120px;
+  border-radius: 20px;
+}
+
+h2{
+  margin: 5px auto;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(16, 158, 111);
+}
+
+p{
+  width: 200px;
+  margin: 12px auto;
+  color: rgb(79, 79, 79);
+}
+
+span{
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  color: rgb(24, 24, 24);
+}
